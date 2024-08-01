@@ -73,10 +73,4 @@ public interface ListInterface<T>
    /** Sees whether this list is empty.
        @return  True if the list is empty, or false if not. */
    public boolean isEmpty();
-   
-   /**Locates a given object in this list.
-   @param anObject A given Object.
-   @return The position of anObject in the list. */
-   public int getPosition(T anObject);
-                        
 } // end ListInterface
